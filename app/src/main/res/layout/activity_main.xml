@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/header" />
+
+    <!-- BoxUusuario -->
+    <!-- senha -->
+    <ImageView
+        android:id="@+id/userimg"
+        android:layout_width="18dp"
+        android:layout_height="18.67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="267dp"
+        android:background="@drawable/userlogo" />
+
+    <EditText
+        android:id="@+id/boxusuario"
+        android:textColor="#ffffff"
+        android:layout_width="262dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="305dp"
+        android:background="@drawable/linhauser"
+        android:inputType="textPersonName" />
+
+
+    <!-- BotaoEntrar -->
+
+    <ImageView
+        android:id="@+id/senhalogo"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="389dp"
+        android:background="@drawable/senhalogo" />
+
+    <EditText
+        android:id="@+id/boxsenha"
+        android:textColor="#ffffff"
+        android:layout_width="262dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="431dp"
+        android:background="@drawable/linhauser"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/boxusuario"
+        android:layout_alignEnd="@+id/boxusuario"
+        android:layout_alignRight="@+id/boxusuario"
+        android:layout_marginStart="-237dp"
+        android:layout_marginLeft="-237dp"
+        android:layout_marginTop="-39dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_toEndOf="@+id/boxusuario"
+        android:layout_toRightOf="@+id/boxusuario"
+        android:text="usuário"
+        android:textColor="#ffffff" />
+
+    <!-- esquecisenha -->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boxusuario"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="49dp"
+        android:layout_toEndOf="@+id/senhalogo"
+        android:layout_toRightOf="@+id/senhalogo"
+        android:text="senha"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/botaoentrar"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="509dp"
+        android:background="@drawable/botaoentrar"
+        android:onClick="confereLogin" />
+
+    <TextView
+        android:id="@+id/semcadastro"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="573dp"
+        android:gravity="center_horizontal|top"
+        android:onClick="semCadastro"
+        android:text="Cadastre-se"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

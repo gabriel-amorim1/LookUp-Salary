@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NavigationActivity"
+    tools:showIn="@layout/app_bar_navigation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Olá"
+            android:textSize="28dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Algumas informações importantes"
+            android:textSize="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="INSS (Instituto Nacional do Seguro Social)"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="É responsável pelo pagamento da aposentadoria e demais benefícios aos trabalhadores, com exceção de servidores públicos">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@drawable/inss"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="IRPF (Imposto sobre a Renda da Pessoa Física)"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="É a forma do governo saber qual a sua renda anual e ainda analisar se a cobrança dos impostos está correta para seu patamar financeiro">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:background="@drawable/irpf"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorAccent"
+            android:text="FGTS(Fundo de Garantia do Tempo de Serviço)">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="um fundo de cada trabalhador na Caixa Econômica Federal em que a empregadora (empresa)
+        deposita uma porcentagem do salário bruto mês a mês.">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Vale Transporte"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="O custo do vale-transporte é dividido entre a empresa e o funcionário. O desconto em folha de pagamento é de 6% do salário bruto, excluindo valores adicionais. Se o gasto com transporte exceder esse valor, então a diferença é paga pela empresa.">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Contribuiçao Sindical"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="Contribuição confederativa: Obrigatória a todos os trabalhadores com carteira assinada. Desconto: anual. Valor de um dia de trabalho e a empresa é responsável pelo repasse do dinheiro ao sindicato.">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="Contribuição associativa: O funcionário pode optar por se tornar sindicalizado ao se associar ao sindicato de sua categoria. Essa contribuição é paga mensalmente.">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorAccent"
+            android:text="Fonte: Receita Federal"></TextView>
+    </LinearLayout>
+</ScrollView>

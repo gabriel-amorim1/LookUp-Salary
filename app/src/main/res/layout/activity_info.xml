@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/numero_dia"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Dia do mês"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="24sp"/>
+
+
+
+    <TextView
+        android:id="@+id/tag_entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_below="@id/numero_dia"
+        android:text="Horario Entrada: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/texto_entrada"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/numero_dia"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tag_entrada" />
+
+    <TextView
+        android:id="@+id/tag_intervalo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_below="@id/tag_entrada"
+        android:text="Horario Intervalo: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/texto_intervalo"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/texto_entrada"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tag_intervalo" />
+
+    <TextView
+        android:id="@+id/tag_voltaIntervalo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_below="@id/tag_intervalo"
+        android:text="Horario Volta Intervalo: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/texto_voltaIntervalo"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/texto_intervalo"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tag_voltaIntervalo" />
+
+    <TextView
+    android:id="@+id/tag_saida"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:textSize="20sp"
+    android:layout_below="@id/tag_voltaIntervalo"
+    android:text="Saída: "
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/texto_saida"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/texto_voltaIntervalo"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tag_saida" />
+
+    <TextView
+        android:id="@+id/tag_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:layout_below="@id/tag_saida"
+        android:text="Total Horas: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/texto_total"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/texto_saida"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tag_total" />
+
+</RelativeLayout>

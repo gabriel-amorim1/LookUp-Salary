@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_margin="16dp"
+android:background="#ffffff "
+tools:context=".MarcaPontoActivity">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff "
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+
+    <!--Aqui aparece o nome do usuário que esta logado-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:text="Olá, usuário"
+        android:id="@+id/nomeUsuario"/>
+
+    <!--Aqui trata a data e o relogio com hora de brasilia -->
+    <LinearLayout
+        android:background="#ffffff "
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        >
+
+        <DigitalClock
+            android:id="@+id/simpleDigitalClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="36dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="50dp"/>
+        <!--Botão entrar/começar-->
+        <LinearLayout
+            android:id="@+id/layout_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+
+                android:id="@+id/btnEntrar"
+                android:layout_width="221dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="16dp"
+                android:text="Início"
+                android:background="@drawable/box"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_intervalo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btnIntervalo"
+                android:visibility="gone"
+                android:layout_marginBottom="16dp"
+                android:text="Intervalo"
+                android:background="@drawable/box"
+                android:textColor="#FFFFFF"
+                android:layout_width="221dp"
+                android:layout_height="55dp"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_marginBottom="16dp"
+                android:text="voltar"
+                android:background="@drawable/box"
+                android:visibility="gone"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:layout_width="221dp"
+                android:layout_height="55dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_saida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnSaida"
+                android:layout_marginBottom="16dp"
+                android:text="Saída"
+                android:background="@drawable/box"
+                android:visibility="gone"
+                android:textSize="25sp"
+                android:layout_width="221dp"
+                android:layout_height="55dp"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout> <!-- Fim layout data/relogio e estado-->
+
+
+</LinearLayout>
+
+</LinearLayout>

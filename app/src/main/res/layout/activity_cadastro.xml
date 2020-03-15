@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Bem Vindo!"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:hint="Endereço de email"
+                android:inputType="textEmailAddress"></EditText>
+
+            <EditText
+                android:id="@+id/editText_senha"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:inputType="textPassword"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Sobre você"
+                android:textColor="@color/colorAccent"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/editText_nome"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:hint="Nome"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/editText_sobrenome"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:hint="Sobrenome"
+                android:inputType="textPersonName"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Sobre seu trabalho"
+                android:textColor="@color/colorAccent"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/editText_salarioBruto"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:hint="Salário Bruto"
+                android:inputType="numberDecimal"></EditText>
+
+            <EditText
+                android:id="@+id/editText_horasDiarias"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:hint="Horas trabalhadas por dia "
+                android:inputType="number"></EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benefícios"
+                android:textColor="@color/colorAccent"
+                android:textSize="22dp">
+
+            </TextView>
+            <EditText
+                android:id="@+id/editText_valetransporte"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:hint="Vale Transporte R$"
+                android:inputType="numberDecimal"></EditText>
+            <EditText
+                android:id="@+id/editText_valerefeicao"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:hint="Vale Refeição R$"
+                android:inputType="numberDecimal"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="left">
+
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="55dp"
+                android:id="@+id/cadastrar"
+                android:background="@drawable/cadastrar"
+                android:onClick="onClickCadastrar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
