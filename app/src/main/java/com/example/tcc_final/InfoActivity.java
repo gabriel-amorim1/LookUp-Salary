@@ -22,9 +22,9 @@ public class InfoActivity extends AppCompatActivity {
         TextView totalTextView = findViewById(R.id.texto_total);
         if (atual != null){ //verifica se recebeu o objeto de filme
 
-            this.setTitle("DIA"); //muda o título da Activity
+//            this.setTitle("DIA"); //muda o título da Activity
             //atribuiu os valores para cada view
-            diaTextView.setText(atual.getDia());
+            diaTextView.setText("Dia do mês: "+ atual.getDia());
             entradaTextView.setText(atual.getEntrada());
             intervaloTextView.setText(atual.getIntervalo());
             voltaIntervaloTextView.setText(atual.getVoltaIntervalo());

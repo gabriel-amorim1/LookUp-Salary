@@ -84,7 +84,8 @@ public class CadastroActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("usuarios");
         myRef.child(Uid).child("dados").setValue(dados);
-        calculaDescontos(Uid);
+        //calculaDescontos(Uid);
+        openNavigation(Uid);
     }
 
     public void calculaDescontos(String Uid){

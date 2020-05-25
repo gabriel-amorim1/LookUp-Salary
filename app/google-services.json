@@ -45,51 +45,6 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:835111952533:android:b238db60f998f6acd2fb9c",
-        "android_client_info": {
-          "package_name": "br.com.tcc.tabs"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "835111952533-f6mmhrtffsu41na74hh2h6juh8r6ijko.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "br.com.tcc.tabs",
-            "certificate_hash": "10bc68e02bfaa82cf3a4ed48afb18991f157a684"
-          }
-        },
-        {
-          "client_id": "835111952533-5kkatpebm4u1v5qdvsbldufm14bppet9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "br.com.tcc.tabs",
-            "certificate_hash": "2f683d105515a43d4ca8c0af125d017e8e2314af"
-          }
-        },
-        {
-          "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAI1JLymU8y6Hpk7vXbJctohzRjIIFAREk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:835111952533:android:4e49f8420761b71d",
         "android_client_info": {
           "package_name": "com.example.exemplofirebase"
@@ -164,49 +119,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:835111952533:android:e77427012155d98ed2fb9c",
-        "android_client_info": {
-          "package_name": "com.example.lus_cadastro"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "835111952533-g0988c63182q2a9l42h8uggj3vr2caut.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.lus_cadastro",
-            "certificate_hash": "2f683d105515a43d4ca8c0af125d017e8e2314af"
-          }
-        },
-        {
-          "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAI1JLymU8y6Hpk7vXbJctohzRjIIFAREk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:835111952533:android:3d3a70433591d707d2fb9c",
         "android_client_info": {
           "package_name": "com.example.tcc_final"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "835111952533-c152o0btduh2130394oml1bgt60bsv5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tcc_final",
+            "certificate_hash": "a129807f794b98b2ff615e15e3e648e56f6f19dd"
+          }
+        },
         {
           "client_id": "835111952533-shhmnplm1a3n4ndsic3fbpec48aimsbj.apps.googleusercontent.com",
           "client_type": 1,
@@ -252,6 +178,35 @@
             "certificate_hash": "2f683d105515a43d4ca8c0af125d017e8e2314af"
           }
         },
+        {
+          "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI1JLymU8y6Hpk7vXbJctohzRjIIFAREk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835111952533:android:b751fe392d911fe6d2fb9c",
+        "android_client_info": {
+          "package_name": "com.innomalist.taxi.rider"
+        }
+      },
+      "oauth_client": [
         {
           "client_id": "835111952533-q61j0to5e8a5aav0vd8mtcsn89kkeu1r.apps.googleusercontent.com",
           "client_type": 3

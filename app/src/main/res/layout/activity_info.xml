@@ -14,6 +14,7 @@
         android:text="Dia do mês"
         android:textAllCaps="true"
         android:textColor="#000000"
+        android:paddingTop="20dp"
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingLeft="24sp"/>
@@ -36,7 +37,8 @@
         android:layout_width="87dp"
         android:layout_height="29dp"
         android:layout_below="@id/numero_dia"
-        android:layout_marginTop="16dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="18dp"
         android:layout_marginRight="16dp"
         android:layout_toRightOf="@id/tag_entrada" />
 
@@ -56,7 +58,8 @@
         android:layout_width="87dp"
         android:layout_height="29dp"
         android:layout_below="@id/texto_entrada"
-        android:layout_marginTop="16dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="13dp"
         android:layout_marginRight="16dp"
         android:layout_toRightOf="@id/tag_intervalo" />
 
@@ -76,6 +79,7 @@
         android:layout_width="87dp"
         android:layout_height="29dp"
         android:layout_below="@id/texto_intervalo"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:layout_toRightOf="@id/tag_voltaIntervalo" />
@@ -96,7 +100,8 @@
         android:layout_width="87dp"
         android:layout_height="29dp"
         android:layout_below="@id/texto_voltaIntervalo"
-        android:layout_marginTop="16dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="13dp"
         android:layout_marginRight="16dp"
         android:layout_toRightOf="@id/tag_saida" />
 
@@ -116,7 +121,8 @@
         android:layout_width="87dp"
         android:layout_height="29dp"
         android:layout_below="@id/texto_saida"
-        android:layout_marginTop="16dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="16dp"
         android:layout_toRightOf="@id/tag_total" />
 

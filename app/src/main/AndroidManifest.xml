@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".NewPointActivity"></activity>
+
+        <service
+            android:name=".FirebasePush"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity android:name=".InfoActivity" />
         <activity android:name=".PreviaDetalhesActivity" />
         <activity android:name=".CalendarioActivity" />
